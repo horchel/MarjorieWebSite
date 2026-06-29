@@ -7,7 +7,7 @@ export default defineConfig({
   site: 'https://example.com',
   i18n: {
     defaultLocale: 'de',
-    locales: ['de', 'en'],
+    locales: ['de', 'en', 'fr'],
     routing: {
       // Standardsprache (DE) ohne Präfix unter "/", Englisch unter "/en/"
       prefixDefaultLocale: false,

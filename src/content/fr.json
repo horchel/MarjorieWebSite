@@ -1,0 +1,105 @@
+{
+  "metaTitle": "Marjorie – Psychotherapy · Coaching · Research",
+  "metaDescription": "Marjorie – accompagnement interdisciplinaire en psychothérapie, coaching et recherche. Chaleureux, attentif et sensible aux différences culturelles.",
+  "nav": {
+    "about": "À propos",
+    "services": "Prestations",
+    "gallery": "Galerie",
+    "focus": "Thèmes",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Marjorie",
+    "tagline": "Psychotherapy · Coaching · Research",
+    "fields": ["Interdisciplinary", "Embodiment", "Intercultural", "Art & Music", "Yoga"],
+    "scroll": "Découvrir"
+  },
+  "imageStrip": [
+    { "image": "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=600&h=600&fit=crop", "alt": "Pièce zen" },
+    { "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop", "alt": "Thé vintage" },
+    { "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop", "alt": "Nature tropicale" },
+    { "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=600&fit=crop", "alt": "Méditation yoga" },
+    { "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=600&fit=crop", "alt": "Fleurs" }
+  ],
+  "about": {
+    "heading": "À propos de moi",
+    "paragraphs": [
+      "Avec une approche interdisciplinaire qui relie psychothérapie, coaching et recherche, j'accompagne les personnes sur leur chemin de développement personnel. Mon travail se caractérise par la chaleur, l'attention et une compréhension profonde de la complexité de l'expérience humaine.",
+      "En intégrant le travail corporel, les formes d'expression créatives et un fondement scientifique, je crée un espace dans lequel la transformation devient possible."
+    ],
+    "quote": "« La guérison survient lorsque nous nous rencontrons nous-mêmes avec compassion et trouvons le courage de vivre de manière authentique. »",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop",
+    "imageAlt": "Portrait"
+  },
+  "services": {
+    "heading": "Mes prestations",
+    "subheading": "Un accompagnement holistique pour votre développement personnel",
+    "items": [
+      {
+        "title": "Psychothérapie",
+        "text": "Un accompagnement thérapeutique approfondi, dans une approche intégrative qui relie le corps, l'esprit et l'âme. Un espace pour la guérison et la croissance personnelle.",
+        "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
+        "imageAlt": "Salle de thérapie"
+      },
+      {
+        "title": "Coaching",
+        "text": "Un soutien professionnel lors des transitions de vie, des défis professionnels et de l'épanouissement de votre plein potentiel.",
+        "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
+        "imageAlt": "Coaching"
+      },
+      {
+        "title": "Recherche",
+        "text": "Recherche scientifique à l'intersection de la psychologie, des sciences sociales et des études sur l'embodiment.",
+        "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
+        "imageAlt": "Recherche"
+      }
+    ]
+  },
+  "gallery": {
+    "heading": "Impressions",
+    "subheading": "Aperçus de mon travail et de mes inspirations",
+    "items": [
+      { "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=1000&fit=crop", "alt": "Yoga Embodiment", "label": "Embodiment" },
+      { "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=500&fit=crop", "alt": "Art", "label": "Art" },
+      { "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=600&h=500&fit=crop", "alt": "Musique", "label": "Music" },
+      { "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=600&h=500&fit=crop", "alt": "Rizières", "label": "Nature" },
+      { "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=500&fit=crop", "alt": "Vintage", "label": "Vintage" }
+    ]
+  },
+  "focus": {
+    "heading": "Thèmes",
+    "subheading": "Les sujets qui façonnent mon travail",
+    "items": [
+      "Racism in Sport",
+      "Education",
+      "Art & Creativity",
+      "Music & Expression",
+      "Yoga & Embodiment",
+      "Intercultural Work",
+      "Black Perspectives",
+      "Languages & Identity"
+    ]
+  },
+  "approach": {
+    "heading": "Mon approche",
+    "text": "Je travaille avec un profond respect pour le caractère unique de chaque personne. Mon approche relie les connaissances scientifiques à une sagesse incarnée, à la sensibilité culturelle et aux formes d'expression créatives. Dans un espace sûr et bienveillant, je vous accompagne pour découvrir vos ressources intérieures et trouver votre propre chemin.",
+    "keywords": ["Chaleureux", "Cultivé", "Sensible", "Réfléchi", "Digne", "Intégratif"]
+  },
+  "languages": {
+    "heading": "Langues",
+    "items": [
+      { "name": "Deutsch", "label": "Allemand" },
+      { "name": "English", "label": "Anglais" },
+      { "name": "Français", "label": "Français" }
+    ]
+  },
+  "contact": {
+    "heading": "Contact",
+    "text": "Je me réjouis de faire votre connaissance et de découvrir ensemble comment je peux vous accompagner sur votre chemin.",
+    "buttonLabel": "Écrivez-moi",
+    "email": "info@entredeux.eu"
+  },
+  "footer": {
+    "tagline": "Psychotherapy · Coaching · Research"
+  }
+}

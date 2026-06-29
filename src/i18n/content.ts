@@ -7,8 +7,9 @@
 
 import deData from '../content/de.json';
 import enData from '../content/en.json';
+import frData from '../content/fr.json';
 
-export const locales = ['de', 'en'] as const;
+export const locales = ['de', 'en', 'fr'] as const;
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = 'de';
@@ -92,4 +93,5 @@ export interface SiteContent {
 export const content: Record<Locale, SiteContent> = {
   de: { htmlLang: 'de', ...deData } as unknown as SiteContent,
   en: { htmlLang: 'en', ...enData } as unknown as SiteContent,
+  fr: { htmlLang: 'fr', ...frData } as unknown as SiteContent,
 };

@@ -23,7 +23,6 @@ const home = localizedPath(locale);
   <div class="nav-lang">
     <a href={localizedPath('de')} class={locale === 'de' ? 'active' : ''}>DE</a>
     <a href={localizedPath('en')} class={locale === 'en' ? 'active' : ''}>EN</a>
-    {/* FR folgt später – aktuell als Platzhalter ohne Link */}
-    <span style="opacity:0.35;cursor:default;" title="Bientôt disponible">FR</span>
+    <a href={localizedPath('fr')} class={locale === 'fr' ? 'active' : ''}>FR</a>
   </div>
 </nav>
