@@ -39,7 +39,7 @@ content:
         type: object
         list: true
         fields:
-          - { name: image, label: "Bild (URL oder /images/datei.jpg)", type: string }
+          - { name: image, label: "Bild", type: image }
           - { name: alt, label: "Bildbeschreibung", type: string }
 
       - name: about
@@ -49,7 +49,7 @@ content:
           - { name: heading, label: "Überschrift", type: string }
           - { name: paragraphs, label: "Absätze", type: text, list: true }
           - { name: quote, label: "Zitat", type: text }
-          - { name: image, label: "Portraitbild (URL oder /images/datei.jpg)", type: string }
+          - { name: image, label: "Portraitbild", type: image }
           - { name: imageAlt, label: "Bildbeschreibung", type: string }
 
       - name: services
@@ -65,7 +65,7 @@ content:
             fields:
               - { name: title, label: "Titel", type: string }
               - { name: text, label: "Text", type: text }
-              - { name: image, label: "Bild (URL oder /images/datei.jpg)", type: string }
+              - { name: image, label: "Bild", type: image }
               - { name: imageAlt, label: "Bildbeschreibung", type: string }
 
       - name: gallery
@@ -79,7 +79,7 @@ content:
             type: object
             list: true
             fields:
-              - { name: image, label: "Bild (URL oder /images/datei.jpg)", type: string }
+              - { name: image, label: "Bild", type: image }
               - { name: alt, label: "Bildbeschreibung", type: string }
               - { name: label, label: "Beschriftung", type: string }
 
