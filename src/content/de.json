@@ -1,6 +1,6 @@
 {
   "metaTitle": "Marjorie – Psychotherapy · Coaching · Research",
-  "metaDescription": "Marjorie – interdisziplinäre Begleitung in Psychotherapie, Coaching und Forschung. Warmherzig, achtsam und kultursensibel.",
+  "metaDescription": "Marjorie Berns – interdisziplinäre Begleitung in Psychotherapie, Coaching und Forschung. Warmherzig, achtsam und kultursensibel.",
   "nav": {
     "about": "Über mich",
     "services": "Angebot",
@@ -11,15 +11,36 @@
   "hero": {
     "name": "Marjorie",
     "tagline": "Psychotherapy · Coaching · Research",
-    "fields": ["Interdisciplinary", "Embodiment", "Intercultural", "Art & Music", "Yoga"],
+    "fields": [
+      "Interdisciplinary",
+      "Embodiment",
+      "Intercultural",
+      "Art & Music",
+      "Yoga"
+    ],
     "scroll": "Entdecken"
   },
   "imageStrip": [
-    { "image": "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=600&h=600&fit=crop", "alt": "Zen Raum" },
-    { "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop", "alt": "Vintage Tee" },
-    { "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop", "alt": "Tropische Natur" },
-    { "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=600&fit=crop", "alt": "Yoga Meditation" },
-    { "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=600&fit=crop", "alt": "Blüten" }
+    {
+      "image": "https://images.unsplash.com/photo-1545048702-79362596cdc9?w=600&h=600&fit=crop",
+      "alt": "Zen Raum"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop",
+      "alt": "Vintage Tee"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop",
+      "alt": "Tropische Natur"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=600&fit=crop",
+      "alt": "Yoga Meditation"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&h=600&fit=crop",
+      "alt": "Blüten"
+    }
   ],
   "about": {
     "heading": "Über Mich",
@@ -59,11 +80,31 @@
     "heading": "Impressionen",
     "subheading": "Einblicke in meine Arbeit und Inspirationen",
     "items": [
-      { "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=1000&fit=crop", "alt": "Yoga Embodiment", "label": "Embodiment" },
-      { "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=500&fit=crop", "alt": "Kunst", "label": "Art" },
-      { "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=600&h=500&fit=crop", "alt": "Musik", "label": "Music" },
-      { "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=600&h=500&fit=crop", "alt": "Reisterrassen", "label": "Nature" },
-      { "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=500&fit=crop", "alt": "Vintage", "label": "Vintage" }
+      {
+        "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=1000&fit=crop",
+        "alt": "Yoga Embodiment",
+        "label": "Embodiment"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=500&fit=crop",
+        "alt": "Kunst",
+        "label": "Art"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=600&h=500&fit=crop",
+        "alt": "Musik",
+        "label": "Music"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1528164344705-47542687000d?w=600&h=500&fit=crop",
+        "alt": "Reisterrassen",
+        "label": "Nature"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=500&fit=crop",
+        "alt": "Vintage",
+        "label": "Vintage"
+      }
     ]
   },
   "focus": {
@@ -83,14 +124,30 @@
   "approach": {
     "heading": "Mein Ansatz",
     "text": "Ich arbeite mit einem tiefen Respekt für die Einzigartigkeit jedes Menschen. Mein Ansatz verbindet wissenschaftliche Erkenntnisse mit verkörperter Weisheit, kultureller Sensibilität und kreativen Ausdrucksformen. In einem sicheren, wertschätzenden Raum begleite ich Sie dabei, Ihre inneren Ressourcen zu entdecken und Ihren eigenen Weg zu finden.",
-    "keywords": ["Warmherzig", "Kultiviert", "Sensibel", "Nachdenklich", "Würdevoll", "Integrativ"]
+    "keywords": [
+      "Warmherzig",
+      "Kultiviert",
+      "Sensibel",
+      "Nachdenklich",
+      "Würdevoll",
+      "Integrativ"
+    ]
   },
   "languages": {
     "heading": "Sprachen",
     "items": [
-      { "name": "Deutsch", "label": "German" },
-      { "name": "English", "label": "Englisch" },
-      { "name": "Français", "label": "Französisch" }
+      {
+        "name": "Deutsch",
+        "label": "German"
+      },
+      {
+        "name": "English",
+        "label": "Englisch"
+      },
+      {
+        "name": "Français",
+        "label": "Französisch"
+      }
     ]
   },
   "contact": {
