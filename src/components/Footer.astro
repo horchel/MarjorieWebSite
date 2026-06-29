@@ -1,14 +1,27 @@
 ---
-import type { SiteContent } from '../i18n/content';
+import type { Locale, SiteContent } from '../i18n/content';
 
 interface Props {
   content: SiteContent;
+  locale: Locale;
 }
 
-const { content } = Astro.props;
+const { content, locale } = Astro.props;
+
+const legalLabels: Record<string, { impressum: string; datenschutz: string }> = {
+  de: { impressum: 'Impressum', datenschutz: 'Datenschutz' },
+  en: { impressum: 'Imprint', datenschutz: 'Privacy Policy' },
+  fr: { impressum: 'Mentions légales', datenschutz: 'Confidentialité' },
+};
+const labels = legalLabels[locale] ?? legalLabels.de;
 ---
 
 <footer>
   <div class="footer-logo">Marjorie</div>
   <p>© 2026 Marjorie · {content.footer.tagline}</p>
+  <nav class="footer-legal">
+    <a href="/impressum">{labels.impressum}</a>
+    <span aria-hidden="true">·</span>
+    <a href="/datenschutz">{labels.datenschutz}</a>
+  </nav>
 </footer>
