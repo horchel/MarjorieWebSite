@@ -47,3 +47,4 @@ Inhalte ohne Code-Kenntnisse gepflegt werden können.
 - Impressum & Datenschutzerklärung (rechtlich erforderlich)
 - CMS-Anbindung für die Inhaltspflege durch Marjorie
 - `site`-URL in `astro.config.mjs` auf die echte Domain setzen
+# MarjorieWebSite
