@@ -1,6 +1,6 @@
 {
-  "metaTitle": "Marjorie – Psychotherapy · Coaching · Research",
-  "metaDescription": "Marjorie – interdisciplinary support in psychotherapy, coaching and research. Warm, mindful and culturally sensitive.",
+  "metaTitle": "Marjorie – Coaching · Counselling · Research",
+  "metaDescription": "Marjorie – interdisciplinary support in coaching, psychological counselling and research. Warm, mindful and culturally sensitive.",
   "nav": {
     "about": "About",
     "services": "Services",
@@ -10,7 +10,7 @@
   },
   "hero": {
     "name": "Marjorie",
-    "tagline": "Psychotherapy · Coaching · Research",
+    "tagline": "Coaching · Counselling · Research",
     "fields": ["Interdisciplinary", "Embodiment", "Intercultural", "Art & Music", "Yoga"],
     "scroll": "Discover"
   },
@@ -24,10 +24,10 @@
   "about": {
     "heading": "About Me",
     "paragraphs": [
-      "With an interdisciplinary approach that combines psychotherapy, coaching and research, I accompany people on their personal path of development. My work is characterised by warmth, mindfulness and a deep understanding of the complexity of human experience.",
+      "With an interdisciplinary approach that combines psychological counselling, coaching and research, I accompany people on their personal path of development. My work is characterised by warmth, mindfulness and a deep understanding of the complexity of human experience.",
       "By integrating body work, creative forms of expression and a scientific foundation, I create a space in which transformation becomes possible."
     ],
-    "quote": "\"Healing happens when we meet ourselves with compassion and find the courage to live authentically.\"",
+    "quote": "\"Growth happens when we meet ourselves with compassion and find the courage to live authentically.\"",
     "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop",
     "imageAlt": "Portrait"
   },
@@ -36,10 +36,10 @@
     "subheading": "Holistic support for your personal development",
     "items": [
       {
-        "title": "Psychotherapy",
-        "text": "In-depth therapeutic support with an integrative approach that connects body, mind and soul. A space for healing and personal growth.",
+        "title": "Psychological Counselling",
+        "text": "Empathetic, in-depth support with an integrative approach that connects body, mind and soul. A space for personal growth and development.",
         "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
-        "imageAlt": "Therapy room"
+        "imageAlt": "Counselling room"
       },
       {
         "title": "Coaching",
@@ -100,6 +100,6 @@
     "email": "info@entredeux.eu"
   },
   "footer": {
-    "tagline": "Psychotherapy · Coaching · Research"
+    "tagline": "Coaching · Counselling · Research"
   }
 }

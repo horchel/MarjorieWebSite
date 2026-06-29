@@ -1,6 +1,6 @@
 {
-  "metaTitle": "Marjorie – Psychotherapy · Coaching · Research",
-  "metaDescription": "Marjorie – accompagnement interdisciplinaire en psychothérapie, coaching et recherche. Chaleureux, attentif et sensible aux différences culturelles.",
+  "metaTitle": "Marjorie – Coaching · Counselling · Research",
+  "metaDescription": "Marjorie – accompagnement interdisciplinaire en coaching, conseil psychologique et recherche. Chaleureux, attentif et sensible aux différences culturelles.",
   "nav": {
     "about": "À propos",
     "services": "Prestations",
@@ -10,7 +10,7 @@
   },
   "hero": {
     "name": "Marjorie",
-    "tagline": "Psychotherapy · Coaching · Research",
+    "tagline": "Coaching · Counselling · Research",
     "fields": ["Interdisciplinary", "Embodiment", "Intercultural", "Art & Music", "Yoga"],
     "scroll": "Découvrir"
   },
@@ -24,10 +24,10 @@
   "about": {
     "heading": "À propos de moi",
     "paragraphs": [
-      "Avec une approche interdisciplinaire qui relie psychothérapie, coaching et recherche, j'accompagne les personnes sur leur chemin de développement personnel. Mon travail se caractérise par la chaleur, l'attention et une compréhension profonde de la complexité de l'expérience humaine.",
+      "Avec une approche interdisciplinaire qui relie le conseil psychologique, le coaching et la recherche, j'accompagne les personnes sur leur chemin de développement personnel. Mon travail se caractérise par la chaleur, l'attention et une compréhension profonde de la complexité de l'expérience humaine.",
       "En intégrant le travail corporel, les formes d'expression créatives et un fondement scientifique, je crée un espace dans lequel la transformation devient possible."
     ],
-    "quote": "« La guérison survient lorsque nous nous rencontrons nous-mêmes avec compassion et trouvons le courage de vivre de manière authentique. »",
+    "quote": "« La croissance survient lorsque nous nous rencontrons nous-mêmes avec compassion et trouvons le courage de vivre de manière authentique. »",
     "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop",
     "imageAlt": "Portrait"
   },
@@ -36,10 +36,10 @@
     "subheading": "Un accompagnement holistique pour votre développement personnel",
     "items": [
       {
-        "title": "Psychothérapie",
-        "text": "Un accompagnement thérapeutique approfondi, dans une approche intégrative qui relie le corps, l'esprit et l'âme. Un espace pour la guérison et la croissance personnelle.",
+        "title": "Conseil psychologique",
+        "text": "Un accompagnement attentif et approfondi, dans une approche intégrative qui relie le corps, l'esprit et l'âme. Un espace pour la croissance et le développement personnels.",
         "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
-        "imageAlt": "Salle de thérapie"
+        "imageAlt": "Salle de consultation"
       },
       {
         "title": "Coaching",
@@ -100,6 +100,6 @@
     "email": "info@entredeux.eu"
   },
   "footer": {
-    "tagline": "Psychotherapy · Coaching · Research"
+    "tagline": "Coaching · Counselling · Research"
   }
 }

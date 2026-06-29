@@ -1,6 +1,6 @@
 {
-  "metaTitle": "Marjorie – Psychotherapy · Coaching · Research",
-  "metaDescription": "Marjorie – interdisziplinäre Begleitung in Psychotherapie, Coaching und Forschung. Warmherzig, achtsam und kultursensibel.",
+  "metaTitle": "Marjorie – Coaching · Counselling · Research",
+  "metaDescription": "Marjorie – interdisziplinäre Begleitung in Coaching, psychologischer Beratung und Forschung. Warmherzig, achtsam und kultursensibel.",
   "nav": {
     "about": "Über mich",
     "services": "Angebot",
@@ -10,7 +10,7 @@
   },
   "hero": {
     "name": "Marjorie",
-    "tagline": "Psychotherapy · Coaching · Research",
+    "tagline": "Coaching · Counselling · Research",
     "fields": [
       "Interdisciplinary",
       "Embodiment",
@@ -45,10 +45,10 @@
   "about": {
     "heading": "Über Mich",
     "paragraphs": [
-      "Mit einem interdisziplinären Ansatz, der Psychotherapie, Coaching und Forschung verbindet, begleite ich Menschen auf ihrem persönlichen Entwicklungsweg. Meine Arbeit ist geprägt von Wärme, Achtsamkeit und einem tiefen Verständnis für die Komplexität menschlicher Erfahrungen.",
+      "Mit einem interdisziplinären Ansatz, der psychologische Beratung, Coaching und Forschung verbindet, begleite ich Menschen auf ihrem persönlichen Entwicklungsweg. Meine Arbeit ist geprägt von Wärme, Achtsamkeit und einem tiefen Verständnis für die Komplexität menschlicher Erfahrungen.",
       "Durch die Integration von Körperarbeit, kreativen Ausdrucksformen und wissenschaftlicher Fundierung schaffe ich einen Raum, in dem Transformation möglich wird."
     ],
-    "quote": "„Heilung geschieht, wenn wir uns selbst mit Mitgefühl begegnen und den Mut finden, authentisch zu leben.\"",
+    "quote": "„Wachstum geschieht, wenn wir uns selbst mit Mitgefühl begegnen und den Mut finden, authentisch zu leben.\"",
     "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&h=800&fit=crop",
     "imageAlt": "Portrait"
   },
@@ -57,10 +57,10 @@
     "subheading": "Ganzheitliche Begleitung für Ihre persönliche Entwicklung",
     "items": [
       {
-        "title": "Psychotherapie",
-        "text": "Tiefgehende therapeutische Begleitung mit einem integrativen Ansatz, der Körper, Geist und Seele verbindet. Raum für Heilung und persönliches Wachstum.",
+        "title": "Psychologische Beratung",
+        "text": "Einfühlsame, tiefgehende Begleitung mit einem integrativen Ansatz, der Körper, Geist und Seele einbezieht. Raum für persönliches Wachstum und Entwicklung.",
         "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
-        "imageAlt": "Therapie Raum"
+        "imageAlt": "Beratungsraum"
       },
       {
         "title": "Coaching",
@@ -157,6 +157,6 @@
     "email": "info@entredeux.eu"
   },
   "footer": {
-    "tagline": "Psychotherapy · Coaching · Research"
+    "tagline": "Coaching · Counselling · Research"
   }
 }
