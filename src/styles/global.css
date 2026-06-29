@@ -697,6 +697,25 @@ nav.scrolled {
     color: var(--soft-black);
 }
 
+.contact-email {
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+}
+
+.contact-email a {
+    color: var(--warm-gray);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(201, 169, 98, 0.4);
+    padding-bottom: 2px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-email a:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+}
+
 /* Footer */
 footer {
     padding: 3rem 4rem;

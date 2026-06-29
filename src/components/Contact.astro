@@ -15,5 +15,8 @@ const { contact } = content;
     <h2>{contact.heading}</h2>
     <p>{contact.text}</p>
     <a href={`mailto:${contact.email}`} class="contact-btn">{contact.buttonLabel}</a>
+    <p class="contact-email">
+      <a href={`mailto:${contact.email}`}>{contact.email}</a>
+    </p>
   </div>
 </section>
