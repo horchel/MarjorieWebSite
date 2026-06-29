@@ -1,0 +1,29 @@
+---
+import type { Locale, SiteContent } from '../i18n/content';
+import { localizedPath } from '../i18n/utils';
+
+interface Props {
+  content: SiteContent;
+  locale: Locale;
+}
+
+const { content, locale } = Astro.props;
+const home = localizedPath(locale);
+---
+
+<nav id="navbar">
+  <a href={home} class="nav-logo">Marjorie</a>
+  <ul class="nav-links">
+    <li><a href="#about">{content.nav.about}</a></li>
+    <li><a href="#services">{content.nav.services}</a></li>
+    <li><a href="#gallery">{content.nav.gallery}</a></li>
+    <li><a href="#focus">{content.nav.focus}</a></li>
+    <li><a href="#contact">{content.nav.contact}</a></li>
+  </ul>
+  <div class="nav-lang">
+    <a href={localizedPath('de')} class={locale === 'de' ? 'active' : ''}>DE</a>
+    <a href={localizedPath('en')} class={locale === 'en' ? 'active' : ''}>EN</a>
+    {/* FR folgt später – aktuell als Platzhalter ohne Link */}
+    <span style="opacity:0.35;cursor:default;" title="Bientôt disponible">FR</span>
+  </div>
+</nav>

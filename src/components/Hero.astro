@@ -1,0 +1,24 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { hero } = content;
+---
+
+<section class="hero">
+  <div class="hero-content">
+    <h1 class="hero-name">{hero.name}</h1>
+    <p class="hero-tagline">{hero.tagline}</p>
+    <div class="hero-fields">
+      {hero.fields.map((field) => <span class="field-tag">{field}</span>)}
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>{hero.scroll}</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>

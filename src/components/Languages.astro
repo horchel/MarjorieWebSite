@@ -1,0 +1,26 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { languages } = content;
+---
+
+<section class="languages">
+  <div class="languages-content fade-in">
+    <h2>{languages.heading}</h2>
+    <div class="language-list">
+      {
+        languages.items.map((lang) => (
+          <div class="language-item">
+            <span>{lang.name}</span>
+            <small>{lang.label}</small>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

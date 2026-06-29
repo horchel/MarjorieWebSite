@@ -1,0 +1,23 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { focus } = content;
+---
+
+<section class="focus-areas" id="focus">
+  <div class="section-header fade-in">
+    <div class="decorative-line"></div>
+    <h2>{focus.heading}</h2>
+    <p>{focus.subheading}</p>
+  </div>
+  <div class="focus-grid">
+    {focus.items.map((item) => (
+      <div class="focus-item fade-in"><h4>{item}</h4></div>
+    ))}
+  </div>
+</section>

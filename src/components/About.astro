@@ -1,0 +1,24 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { about } = content;
+---
+
+<section class="about" id="about">
+  <div class="about-image">
+    <div class="about-image-main">
+      <img src={about.image} alt={about.imageAlt} loading="lazy" />
+    </div>
+  </div>
+  <div class="about-content fade-in">
+    <div class="decorative-line"></div>
+    <h2>{about.heading}</h2>
+    {about.paragraphs.map((p) => <p>{p}</p>)}
+    <blockquote class="about-quote">{about.quote}</blockquote>
+  </div>
+</section>

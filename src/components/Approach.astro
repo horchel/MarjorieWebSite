@@ -1,0 +1,21 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { approach } = content;
+---
+
+<section class="approach" id="approach">
+  <div class="approach-content fade-in">
+    <div class="decorative-line"></div>
+    <h2>{approach.heading}</h2>
+    <p class="approach-text">{approach.text}</p>
+    <div class="approach-keywords">
+      {approach.keywords.map((kw) => <span class="keyword">{kw}</span>)}
+    </div>
+  </div>
+</section>

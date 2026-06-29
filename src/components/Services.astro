@@ -1,0 +1,33 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { services } = content;
+---
+
+<section class="services" id="services">
+  <div class="section-header fade-in">
+    <div class="decorative-line"></div>
+    <h2>{services.heading}</h2>
+    <p>{services.subheading}</p>
+  </div>
+  <div class="services-grid">
+    {
+      services.items.map((item) => (
+        <div class="service-card fade-in">
+          <div class="service-image">
+            <img src={item.image} alt={item.imageAlt} loading="lazy" />
+          </div>
+          <div class="service-content">
+            <h3>{item.title}</h3>
+            <p>{item.text}</p>
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

@@ -1,0 +1,19 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+---
+
+<div class="image-strip">
+  {
+    content.imageStrip.map((item) => (
+      <div class="strip-image">
+        <img src={item.image} alt={item.alt} loading="lazy" />
+      </div>
+    ))
+  }
+</div>

@@ -1,0 +1,19 @@
+---
+import type { SiteContent } from '../i18n/content';
+
+interface Props {
+  content: SiteContent;
+}
+
+const { content } = Astro.props;
+const { contact } = content;
+---
+
+<section class="contact" id="contact">
+  <div class="fade-in">
+    <div class="decorative-line"></div>
+    <h2>{contact.heading}</h2>
+    <p>{contact.text}</p>
+    <a href={`mailto:${contact.email}`} class="contact-btn">{contact.buttonLabel}</a>
+  </div>
+</section>

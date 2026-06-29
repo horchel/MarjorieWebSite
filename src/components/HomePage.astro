@@ -1,0 +1,36 @@
+---
+import type { Locale, SiteContent } from '../i18n/content';
+import Layout from '../layouts/Layout.astro';
+import Nav from './Nav.astro';
+import Hero from './Hero.astro';
+import ImageStrip from './ImageStrip.astro';
+import About from './About.astro';
+import Services from './Services.astro';
+import Gallery from './Gallery.astro';
+import FocusAreas from './FocusAreas.astro';
+import Approach from './Approach.astro';
+import Languages from './Languages.astro';
+import Contact from './Contact.astro';
+import Footer from './Footer.astro';
+
+interface Props {
+  content: SiteContent;
+  locale: Locale;
+}
+
+const { content, locale } = Astro.props;
+---
+
+<Layout content={content}>
+  <Nav content={content} locale={locale} />
+  <Hero content={content} />
+  <ImageStrip content={content} />
+  <About content={content} />
+  <Services content={content} />
+  <Gallery content={content} />
+  <FocusAreas content={content} />
+  <Approach content={content} />
+  <Languages content={content} />
+  <Contact content={content} />
+  <Footer content={content} />
+</Layout>
