@@ -1,0 +1,134 @@
+# Konfiguration für Pages CMS (https://pagescms.org)
+# Legt fest, welche Inhalte Marjorie im Browser bearbeiten kann.
+# Die Felder verweisen auf src/content/de.json bzw. en.json.
+
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: content_de
+    label: "Inhalte – Deutsch 🇩🇪"
+    type: file
+    path: src/content/de.json
+    fields: &content_fields
+      - { name: metaTitle, label: "Seitentitel (Browser-Tab)", type: string }
+      - { name: metaDescription, label: "Kurzbeschreibung (für Google)", type: text }
+
+      - name: nav
+        label: "Menü (Navigation)"
+        type: object
+        fields:
+          - { name: about, label: "Über mich", type: string }
+          - { name: services, label: "Angebot", type: string }
+          - { name: gallery, label: "Galerie", type: string }
+          - { name: focus, label: "Schwerpunkte", type: string }
+          - { name: contact, label: "Kontakt", type: string }
+
+      - name: hero
+        label: "Kopfbereich (Hero)"
+        type: object
+        fields:
+          - { name: name, label: "Name", type: string }
+          - { name: tagline, label: "Untertitel", type: string }
+          - { name: fields, label: "Schlagworte", type: string, list: true }
+          - { name: scroll, label: "Scroll-Hinweis", type: string }
+
+      - name: imageStrip
+        label: "Bilderstreifen"
+        type: object
+        list: true
+        fields:
+          - { name: image, label: "Bild (URL oder /images/datei.jpg)", type: string }
+          - { name: alt, label: "Bildbeschreibung", type: string }
+
+      - name: about
+        label: "Über mich"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - { name: paragraphs, label: "Absätze", type: text, list: true }
+          - { name: quote, label: "Zitat", type: text }
+          - { name: image, label: "Portraitbild (URL oder /images/datei.jpg)", type: string }
+          - { name: imageAlt, label: "Bildbeschreibung", type: string }
+
+      - name: services
+        label: "Angebot"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - { name: subheading, label: "Unterzeile", type: string }
+          - name: items
+            label: "Leistungen"
+            type: object
+            list: true
+            fields:
+              - { name: title, label: "Titel", type: string }
+              - { name: text, label: "Text", type: text }
+              - { name: image, label: "Bild (URL oder /images/datei.jpg)", type: string }
+              - { name: imageAlt, label: "Bildbeschreibung", type: string }
+
+      - name: gallery
+        label: "Galerie"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - { name: subheading, label: "Unterzeile", type: string }
+          - name: items
+            label: "Bilder"
+            type: object
+            list: true
+            fields:
+              - { name: image, label: "Bild (URL oder /images/datei.jpg)", type: string }
+              - { name: alt, label: "Bildbeschreibung", type: string }
+              - { name: label, label: "Beschriftung", type: string }
+
+      - name: focus
+        label: "Schwerpunkte"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - { name: subheading, label: "Unterzeile", type: string }
+          - { name: items, label: "Themen", type: string, list: true }
+
+      - name: approach
+        label: "Mein Ansatz"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - { name: text, label: "Text", type: text }
+          - { name: keywords, label: "Schlagworte", type: string, list: true }
+
+      - name: languages
+        label: "Sprachen"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - name: items
+            label: "Sprachen"
+            type: object
+            list: true
+            fields:
+              - { name: name, label: "Sprache", type: string }
+              - { name: label, label: "Beschriftung", type: string }
+
+      - name: contact
+        label: "Kontakt"
+        type: object
+        fields:
+          - { name: heading, label: "Überschrift", type: string }
+          - { name: text, label: "Text", type: text }
+          - { name: buttonLabel, label: "Button-Beschriftung", type: string }
+          - { name: email, label: "E-Mail-Adresse", type: string }
+
+      - name: footer
+        label: "Fußzeile"
+        type: object
+        fields:
+          - { name: tagline, label: "Untertitel", type: string }
+
+  - name: content_en
+    label: "Content – English 🇬🇧"
+    type: file
+    path: src/content/en.json
+    fields: *content_fields
